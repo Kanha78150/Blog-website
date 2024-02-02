@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ffa32b;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: semi-condensed;
+    color: aqua;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Sixtyfour', sans-serif !important;
+}
+
+.hero {
+    padding-left: 49px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+
+}
+
+.left h1 {
+    color: #020101;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.left p {
+    color: #020101;
+    font-size: 1rem;
+    margin-bottom: 26px;
+}
+
+.left a {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(25, 202, 96);
+    color: black;
+    padding: 10px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.right img {
+    margin-top: 25px;
+    width: 90%;
+}
+
+.mar {
+    margin-right: 20px;
+}
+
+.blogpage h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conatainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    place-items: center;
+    position: relative;
+}
+
+.sideright .nav-item {
+    display: flex;
+}
+
+.card-link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 350;
+}
+
+.blogpage {
+    background-color: #fff;
+    height: 100dvh;
+    width: 100%;
+    padding: 5px 50px;
+}
+
+
+.card {
+    border-radius: 15px;
+    border: none;
+    width: 370px;
+    height: 120px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #898b96;
+    font-weight: 300;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
+    color: #363940;
+}
+
+a {
+    color: #5867dd;
+}
+
+.footer-big {
+    padding-top: 70px;
+}
+
+.footer-big .footer-widget {
+    margin-bottom: 40px;
+}
+
+.footer--light {
+    background: black;
+}
+
+.footer-big .footer-menu ul li a,
+.footer-big p,
+.footer-big ul li {
+    color: #898b96;
+}
+
+/* Responsive Css Code created by : Shift Code Design */
+
+.footer-menu {
+    padding-left: 48px;
+}
+
+.footer-menu ul li a {
+    font-size: 15px;
+    line-height: 32px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.footer-menu ul li a:hover {
+    color: #ce1a19;
+}
+
+.footer-widget-title {
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.mini-footer {
+    background: black;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.mini-footer p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: white;
+}
+
+.mini-footer p a {
+    color: #ce1a19;
+    font-weight: 500;
+}
+
+.mini-footer p a:hover {
+    color: #34bfa3;
+}
+
+/* Responsive Css Code created by : Shift Code Design */
+
+.widget-about img {
+    display: block;
+    margin-bottom: 30px;
+    max-width: 70%;
+}
+
+.widget-about p {
+    font-weight: 400;
+    color: white;
+    font-size: 28px;
+}
+
+.widget-about .contact-details {
+    margin-top: 30px;
+}
+
+.widget-about .contact-details li {
+    margin-bottom: 10px;
+}
+
+.widget-about .contact-details li:last-child {
+    margin-bottom: 0;
+}
+
+
+.widget-about .contact-details li a {
+    color: #5867dd;
+}
+
+/* Responsive Css Code created by : Shift Code Design */
+
+@media (max-width: 991px) {
+    .footer-menu {
+        padding-left: 0;
+    }
+
+    .widget-about img {
+        max-width: 50%;
+    }
+}
+
+.lastfooter {
+    width: 100%;
+}
+
+.save {
+    background-color: #ff8a00 !important;
+    border: 0 !important;
+}
+
+.labelchange {
+    font-weight: 600 !important;
+    font-size: 1.4rem !important;
+    color: #ce1a19 !important;
+}
+
+.form-control {
+    color: #000;
+    border: 2px solid rgba(128, 128, 128, 0.779);
+}
+
+h1 {
+    font-weight: 600;
+}
+
+a {
+    margin-right: 5px;
+}
+
+.formheading {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 16px;
+    color: #000;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 400;
+}
+
+a {
+    margin-right: 3px;
+}

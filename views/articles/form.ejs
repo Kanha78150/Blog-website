@@ -1,0 +1,27 @@
+<div class="form-group mb-3">
+    <label class="text-muted labelchange" for="title">Title</label>
+    <input id="title" name="title" type="text" value="<%= article.title%>" class="form-control" required
+        placeholder="Enter the Title of the blog">
+</div>
+
+<div class="form-group mb-3">
+    <label class="text-muted labelchange" for="author">Author</label>
+    <input id="author" name="author" type="text" value="<%= article.author%>" class="form-control" required
+        placeholder="Enter the author name">
+</div>
+
+<div class="form-group mb-3">
+    <label class="text-muted labelchange" for="description">Description</label>
+    <textarea name="description" id="description" class="form-control"
+        placeholder="Write the description of the blog"><%= article.description%></textarea>
+</div>
+
+<div class="form-group mb-3">
+    <label class="text-muted labelchange" for="markdown">About Blog</label><br>
+    <textarea name="markdown" id="markdown" class="form-control"
+        placeholder="Write Here..."><%=article.markdown%></textarea>
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary save">Save</button>
+<br><br>
