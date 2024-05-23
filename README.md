@@ -21,7 +21,7 @@ Responsive Design: Mobile-friendly interface.
 3. Installation
 To set up the Blog Website locally, follow these steps:
 3.1 Clone the Repository:
-   git clone https://github.com/yourusername/blog-website.git
+   git clone https://github.com/Kanha78150/Blog-website
    cd blog-website
 3.2 Install Dependencies:
    npm install
@@ -35,7 +35,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 If you have any questions, issues, or suggestions, feel free to reach out:
 
 Email: bholasankarnanda123@gmail.com
-GitHub Issues: https://github.com/yourusername/blog-website/issues
+GitHub Issues: https://github.com/Kanha78150
 
 
 Thank you for using the Blog Website! We hope you enjoy creating and sharing 
