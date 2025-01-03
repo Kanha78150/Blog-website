@@ -25,9 +25,10 @@ app.get('/', async (req, res) => {
 
 mongoose.connect('mongodb://0.0.0.0:27017/blog')
     .then(() => {
-        app.listen(3000, () => {
+        const PORT = process.env.PORT || 3000; // Use process.env.PORT or default to 3000
+        app.listen(PORT, () => {
             console.log("Connected to MongoDB...");
-            console.log("Listening @port #3000...");
+            console.log(`Listening @port #${PORT}...`);
         });
     })
     .catch((error) => {
